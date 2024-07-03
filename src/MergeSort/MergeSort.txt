@@ -1,0 +1,23 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+Write the stages of the above sequence according to the sort type.
+Write the Big-O notation.
+
+
+16     21     11     8     12     22
+
+
+16,21      11,8       12,22
+
+
+16                  21                 11              8               12                  22
+
+
+16  /  21             8   /   11            12 / 22
+
+
+8     11     12   16    21    22   
+
+
+
+The space complexity of Merge sort is O(n). This means that this algorithm takes a lot of space and may slower down operations for the last data sets.
